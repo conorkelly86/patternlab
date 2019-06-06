@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Applications/DevDesktop/php7_2_x64/bin:/Applications/DevDesktop/mysql/bin:/Applications/DevDesktop/tools:/Users/conorkelly/drush:/Applications/MAMP/Library/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/DevDesktop/tools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/conorkelly/Sites/devdesktop/pattern/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "lab",
+    "version": "1.0.0",
+    "description": "patternlab",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "gulp": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
