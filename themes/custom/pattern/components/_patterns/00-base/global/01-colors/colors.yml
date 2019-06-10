@@ -19,6 +19,8 @@ items:
     value: black
   - name: $il-font
     value: '#5261ac'
+  - name: $hoverBg
+    value: yellow
 meta:
   description: >-
     To add to these items, use Sass variables that start with <code>$</code> in
