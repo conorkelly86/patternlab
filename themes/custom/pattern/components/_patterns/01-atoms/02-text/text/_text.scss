@@ -32,6 +32,10 @@ body {
   border-width: 1px 0 0;
   color: currentColor;
 }
+.yellow-text {
+
+  color: $hoverBg;
+}
 
 // TODO: BEM selectors should be applied to wysiwyg-created content
 
